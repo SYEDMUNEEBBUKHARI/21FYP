@@ -1,0 +1,17 @@
+{
+  "name": "fd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd Rajab && npm start",
+    "server": "cd backend5 && npm start",
+    "start":  "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  },
+  "description": ""
+}
